@@ -167,6 +167,20 @@ Resumo: **Jev** para começar rápido e com mais precisão; **Laya** quando os d
 | Human in the loop | Humano entra quando o modelo não tem confiança suficiente |
 | Escalation / transbordo | Passar o caso para um nível acima (LLM mais forte ou atendente) |
 
+### 9. Conexão com um projeto real: o score de prioridade do UrbanIQ
+
+No [UrbanIQ](https://github.com/Ant4rez/UrbanIq), cada chamado urbano recebe um **score de prioridade de 0 a 100**, calculado por uma fórmula ponderada (risco, tempo em aberto, reiterações e um bônus de equidade para territórios que pedem pouco), e o sistema usa esse número para priorizar o atendimento.
+
+| | Score do UrbanIQ | Modelo de decisão (Jev / Laya) |
+|---|---|---|
+| Natureza | **Regra determinística**: fórmula com pesos definidos por pessoas | **Modelo aprendido**: julgamento treinado com dados |
+| Entrada | Campos estruturados (categoria, datas, contagem de reiterações) | Texto livre ou JSON (o state) |
+| Saída | Um número de 0 a 100 | Opção, nota ou probabilidade, com confiança |
+| Explicabilidade | Total: dá para mostrar a conta | Parcial: mostra probabilidades, não o "porquê" |
+| O que faz bem | Combinar números de forma transparente e auditável | Entender a linguagem do cidadão |
+
+**A parte interessante é que eles se completam.** Um modelo de decisão poderia ler a descrição livre do chamado ("tem um fio caído na frente da escola") e extrair o que a fórmula precisa: o nível de risco (Score), se é reiteração de outro chamado (Noul) e a subcategoria certa (Choice). A fórmula do UrbanIQ continuaria fazendo a conta no código. É exatamente a boa prática do Jev: **o modelo julga, a matemática fica no código.**
+
 ### Fontes
 
 - [InfoQ: TypeSafe AI Releases Jev](https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/)
