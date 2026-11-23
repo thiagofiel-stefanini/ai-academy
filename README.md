@@ -11,6 +11,8 @@ Entregas das atividades da trilha AI Academy: fundamentos de desenvolvimento, co
 | 03 | Hierarquia: IA, Machine Learning, Deep Learning e IA Generativa | [Mapa mental](03-ia-ml-dl-ia-generativa/) | Concluída |
 | 04 | LLM: o que é e como funciona | [Ver entrega](04-llm-o-que-e-e-como-funciona/) | Concluída |
 | 05 | Tokens, janela de contexto e temperatura | [Ver entrega](05-tokens-janela-de-contexto-e-temperatura/) | Concluída |
+| 06 | SLM (Small Language Models) | [Ver entrega](06-slm-small-language-models/) | Concluída |
+| 07 | Modelos de decisão: Jev e Laya | [Ver entrega](07-modelos-de-decisao-jev-e-laya/) | Concluída |
 
 ## Organização
 
