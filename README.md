@@ -15,6 +15,7 @@ Entregas das atividades da trilha AI Academy: fundamentos de desenvolvimento, co
 | 07 | Modelos de decisão: Jev e Laya | [Ver entrega](07-modelos-de-decisao-jev-e-laya/) | Concluída |
 | 08 | Engenharia de prompt | [Ver entrega](08-engenharia-de-prompt/) | Concluída |
 | 09 | Engenharia de contexto | [Ver entrega](09-engenharia-de-contexto/) | Concluída |
+| 10 | Embeddings e bancos vetoriais | [Ver entrega](10-embeddings-e-bancos-vetoriais/) | Concluída |
 
 ## Organização
 
