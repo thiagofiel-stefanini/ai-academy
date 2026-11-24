@@ -14,6 +14,7 @@ Entregas das atividades da trilha AI Academy: fundamentos de desenvolvimento, co
 | 06 | SLM (Small Language Models) | [Ver entrega](06-slm-small-language-models/) | Concluída |
 | 07 | Modelos de decisão: Jev e Laya | [Ver entrega](07-modelos-de-decisao-jev-e-laya/) | Concluída |
 | 08 | Engenharia de prompt | [Ver entrega](08-engenharia-de-prompt/) | Concluída |
+| 09 | Engenharia de contexto | [Ver entrega](09-engenharia-de-contexto/) | Concluída |
 
 ## Organização
 
